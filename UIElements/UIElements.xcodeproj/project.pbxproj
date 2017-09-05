@@ -15,6 +15,8 @@
 		6A3DA9231F59BCF30014EC55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3DA9211F59BCF30014EC55 /* LaunchScreen.storyboard */; };
 		6A3DA92E1F59BCF30014EC55 /* UIElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3DA92D1F59BCF30014EC55 /* UIElementsTests.m */; };
 		6A3DA9391F59BCF30014EC55 /* UIElementsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3DA9381F59BCF30014EC55 /* UIElementsUITests.m */; };
+		6A3DA94C1F5F0D1E0014EC55 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3DA94B1F5F0D1E0014EC55 /* ThirdViewController.m */; };
+		6A3DA94F1F5F20820014EC55 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3DA94E1F5F20820014EC55 /* ListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		6A3DA9341F59BCF30014EC55 /* UIElementsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIElementsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A3DA9381F59BCF30014EC55 /* UIElementsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIElementsUITests.m; sourceTree = "<group>"; };
 		6A3DA93A1F59BCF30014EC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A3DA94A1F5F0D1E0014EC55 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		6A3DA94B1F5F0D1E0014EC55 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		6A3DA94D1F5F20820014EC55 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		6A3DA94E1F5F20820014EC55 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				6A3DA9211F59BCF30014EC55 /* LaunchScreen.storyboard */,
 				6A3DA9241F59BCF30014EC55 /* Info.plist */,
 				6A3DA9131F59BCF30014EC55 /* Supporting Files */,
+				6A3DA94A1F5F0D1E0014EC55 /* ThirdViewController.h */,
+				6A3DA94B1F5F0D1E0014EC55 /* ThirdViewController.m */,
+				6A3DA94D1F5F20820014EC55 /* ListViewController.h */,
+				6A3DA94E1F5F20820014EC55 /* ListViewController.m */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -273,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3DA94F1F5F20820014EC55 /* ListViewController.m in Sources */,
 				6A3DA91B1F59BCF30014EC55 /* ViewController.m in Sources */,
 				6A3DA9181F59BCF30014EC55 /* AppDelegate.m in Sources */,
+				6A3DA94C1F5F0D1E0014EC55 /* ThirdViewController.m in Sources */,
 				6A3DA9151F59BCF30014EC55 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +521,7 @@
 				6A3DA93F1F59BCF30014EC55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A3DA9401F59BCF30014EC55 /* Build configuration list for PBXNativeTarget "UIElementsTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				6A3DA9421F59BCF30014EC55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A3DA9431F59BCF30014EC55 /* Build configuration list for PBXNativeTarget "UIElementsUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				6A3DA9451F59BCF30014EC55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
