@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,59 +20,12 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k70-Bq-GaI">
-                                <rect key="frame" x="31" y="50" width="313" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="JxS-aI-fRM"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rxb-rG-yYD">
-                                <rect key="frame" x="31" y="110" width="313" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
-                                <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="EYY-bG-Wis"/>
-                                </connections>
-                            </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JES-Af-XE7">
-                                <rect key="frame" x="31" y="170" width="313" height="200"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="XxJ-L0-AY9"/>
-                                </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="GR6-6v-qLO"/>
-                                </connections>
-                            </textView>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="k70-Bq-GaI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="2KU-O5-3yy"/>
-                            <constraint firstItem="Rxb-rG-yYD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="7L4-K0-D9g"/>
-                            <constraint firstItem="k70-Bq-GaI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="MsH-Yq-8L7"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="JES-Af-XE7" secondAttribute="trailing" constant="15" id="Rh8-fM-jRM"/>
-                            <constraint firstItem="Rxb-rG-yYD" firstAttribute="top" secondItem="k70-Bq-GaI" secondAttribute="bottom" constant="30" id="gYT-QD-2vF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Rxb-rG-yYD" secondAttribute="trailing" constant="15" id="iXZ-rP-Ti7"/>
-                            <constraint firstItem="JES-Af-XE7" firstAttribute="top" secondItem="Rxb-rG-yYD" secondAttribute="bottom" constant="30" id="tWJ-g0-ocY"/>
-                            <constraint firstItem="JES-Af-XE7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="w5Z-UW-bKo"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="k70-Bq-GaI" secondAttribute="trailing" constant="15" id="zPI-nY-rv2"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="EmailTextField" destination="Rxb-rG-yYD" id="dyr-Bv-3hJ"/>
-                        <outlet property="PasswordTextField" destination="k70-Bq-GaI" id="1B0-tJ-Kqy"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="143.19999999999999" y="113.79310344827587"/>
         </scene>
     </scenes>
 </document>
