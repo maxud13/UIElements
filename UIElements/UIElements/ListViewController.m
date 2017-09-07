@@ -16,7 +16,7 @@
 
 @implementation ListViewController
 
-- (void)veiwDidLoad
+- (void)viewDidLoad
 {
     [super viewDidLoad];
     
